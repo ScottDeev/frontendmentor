@@ -16,7 +16,7 @@ body{
 
 .wrapper{
     position: relative;
-    height: 70%;
+    height: 60%;
     width: max(20%, 350px);
     border-radius: 8px;
     box-shadow: 5px 5px 16px 6px hsl(215, 63%, 5%);
@@ -26,7 +26,7 @@ body{
 
 .img-section{
     position: relative;
-    height: 50%;  
+    height: 40%;  
 }
 
 .img-section img{
