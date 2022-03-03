@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    position: relative;
+    height: 85%;
+    width: max(20%, 350px);
+    border-radius: 8px;
+    box-shadow: 5px 5px 16px 6px hsl(215, 63%, 5%);
+    background-color:hsl(216, 50%, 16%);
+    overflow: hidden;
+}
+
+.img-section{
+    position: relative;
+    height: 55%;  
+}
+
+.img-section img{
+    height: 90%;
+    width: 90%;
+    margin: 5%;
+    border-radius: 8px;
+}
+.img-section::after{
+    content: "";
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+
+    opacity: 0;
+}
+.transition-img{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 255, 247, 0.5);
+    margin: 5%;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+}
+
+.transition-img:hover{
+    opacity: 1;
+}
+
+.description{
+    height: 45%;
+    width: 90%;
+    margin: 5%; 
+}
+
+.writeup h2{
+    margin-bottom: 5%;
+    color: rgb(241, 233, 233);
+}
+.writeup h2:hover{
+    color: #00FFF8;
+}
+.writeup p,
+.created-section p{
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+.created-section p{
+    padding-left: 15px;
+}
+
+.created-section{
+    display: flex;
+    float: left;
+    margin-top: 15px;
+}
+
+.created-section img{
+    height: 30px;
+    width: 30px;
+}
+
+.svg-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.eth-div,
+.time-div{
+    display: flex;
+    float: left;
+}
+
+.eth-div p{
+    color: #00FFF8;
+    padding-left: 5px;
+}
+
+.time-div p{
+    color: #8BACD9;
+    padding-left: 5px;
+}
+span{
+    color: rgb(241, 233, 233);
+}
+
+span:hover{
+    color: #00FFF8;
+}
+hr.line{
+    border: 1px solid hsl(215, 51%, 70%);;
+}
+
+.avatar{
+    border-radius: 50%;
+    background-color: white;
+    padding: 2px;
+}
+.avatar img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
