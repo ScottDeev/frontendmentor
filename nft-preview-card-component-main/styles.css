@@ -16,17 +16,17 @@ body{
 
 .wrapper{
     position: relative;
-    height: 60%;
-    width: max(30%, 350px);
+    height: auto;
+    width: 330px;
+    margin: 10% 0;
     border-radius: 8px;
     box-shadow: 5px 5px 16px 6px hsl(215, 63%, 5%);
     background-color:hsl(216, 50%, 16%);
-    overflow: hidden;
 }
 
 .img-section{
     position: relative;
-    height: 40%;  
+    height: auto;  
 }
 
 .img-section img{
@@ -35,18 +35,8 @@ body{
     margin: 5%;
     border-radius: 8px;
 }
-.img-section::after{
-    content: "";
-    width: 90%;
-    height: 90%;
-    position: absolute;
-    
-    top: 0;
-    left: 0;
 
-    opacity: 0;
-}
-.transition-img{
+.transition-img a{
     position: absolute;
     height: 90%;
     width: 90%;
@@ -62,21 +52,25 @@ body{
     transition: opacity 0.25s ease;
 }
 
-.transition-img:hover{
+.transition-img a:hover{
     opacity: 1;
 }
 
 .description{
-    height: 45%;
+    height: auto;
     width: 90%;
     margin: 5%; 
 }
 
-.writeup h2{
-    margin-bottom: 5%;
-    color: rgb(241, 233, 233);
+.writeup p{
+    margin-top: 10%;
 }
-.writeup h2:hover{
+.writeup a{
+    margin-bottom: 10%;
+    color: rgb(241, 233, 233);
+    text-decoration: none;
+}
+.writeup a:hover{
     color: #00FFF8;
 }
 .writeup p,
@@ -92,7 +86,7 @@ body{
 .created-section{
     display: flex;
     float: left;
-    margin-top: 15px;
+    margin: 15px 0;
 }
 
 .created-section img{
@@ -121,11 +115,12 @@ body{
     color: #8BACD9;
     padding-left: 5px;
 }
-span{
+.created-section a{
     color: rgb(241, 233, 233);
+    text-decoration: none;
 }
 
-span:hover{
+.created-section a:hover{
     color: #00FFF8;
 }
 hr.line{
