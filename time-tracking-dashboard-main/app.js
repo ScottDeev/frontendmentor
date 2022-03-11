@@ -117,7 +117,7 @@ const  self_care= document.querySelector(".self_care");
 
 work.innerHTML = `          
 <div class="dv1">
-  <h3>${data[0].title}</h3>
+  <h2>${data[0].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -130,7 +130,7 @@ work.innerHTML = `
 
 play.innerHTML = `          
 <div class="dv1">
-  <h3>${data[1].title}</h3>
+  <h2>${data[1].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -143,7 +143,7 @@ play.innerHTML = `
 
 study.innerHTML = `          
 <div class="dv1">
-  <h3>${data[2].title}</h3>
+  <h2>${data[2].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -156,7 +156,7 @@ study.innerHTML = `
 
 exercise.innerHTML = `          
 <div class="dv1">
-  <h3>${data[3].title}</h3>
+  <h2>${data[3].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -169,7 +169,7 @@ exercise.innerHTML = `
 
 social.innerHTML = `          
 <div class="dv1">
-  <h3>${data[4].title}</h3>
+  <h2>${data[4].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -182,7 +182,7 @@ social.innerHTML = `
 
 self_care.innerHTML = `          
 <div class="dv1">
-  <h3>${data[5].title}</h3>
+  <h2>${data[5].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -199,7 +199,7 @@ daily.addEventListener("click", function(){
   monthly.style.color = "hsl(236, 100%, 87%)";
   work.innerHTML = `          
 <div class="dv1">
-  <h3>${data[0].title}</h3>
+  <h2>${data[0].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -212,7 +212,7 @@ daily.addEventListener("click", function(){
 
 play.innerHTML = `          
 <div class="dv1">
-  <h3>${data[1].title}</h3>
+  <h2>${data[1].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -225,7 +225,7 @@ play.innerHTML = `
 
 study.innerHTML = `          
 <div class="dv1">
-  <h3>${data[2].title}</h3>
+  <h2>${data[2].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -238,7 +238,7 @@ study.innerHTML = `
 
 exercise.innerHTML = `          
 <div class="dv1">
-  <h3>${data[3].title}</h3>
+  <h2>${data[3].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -251,7 +251,7 @@ exercise.innerHTML = `
 
 social.innerHTML = `          
 <div class="dv1">
-  <h3>${data[4].title}</h3>
+  <h2>${data[4].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -264,7 +264,7 @@ social.innerHTML = `
 
 self_care.innerHTML = `          
 <div class="dv1">
-  <h3>${data[5].title}</h3>
+  <h2>${data[5].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -283,7 +283,7 @@ weekly.addEventListener("click", function(){
 
 work.innerHTML = `          
 <div class="dv1">
-  <h3>${data[0].title}</h3>
+  <h2>${data[0].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -296,7 +296,7 @@ work.innerHTML = `
 
 play.innerHTML = `          
 <div class="dv1">
-  <h3>${data[1].title}</h3>
+  <h2>${data[1].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -309,7 +309,7 @@ play.innerHTML = `
 
 study.innerHTML = `          
 <div class="dv1">
-  <h3>${data[2].title}</h3>
+  <h2>${data[2].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -322,7 +322,7 @@ study.innerHTML = `
 
 exercise.innerHTML = `          
 <div class="dv1">
-  <h3>${data[3].title}</h3>
+  <h2>${data[3].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -335,7 +335,7 @@ exercise.innerHTML = `
 
 social.innerHTML = `          
 <div class="dv1">
-  <h3>${data[4].title}</h3>
+  <h2>${data[4].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -348,7 +348,7 @@ social.innerHTML = `
 
 self_care.innerHTML = `          
 <div class="dv1">
-  <h3>${data[5].title}</h3>
+  <h2>${data[5].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -366,7 +366,7 @@ monthly.addEventListener("click", function(){
   weekly.style.color = "hsl(236, 100%, 87%)";
   work.innerHTML = `          
 <div class="dv1">
-  <h3>${data[0].title}</h3>
+  <h2>${data[0].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -379,7 +379,7 @@ monthly.addEventListener("click", function(){
 
 play.innerHTML = `          
 <div class="dv1">
-  <h3>${data[1].title}</h3>
+  <h2>${data[1].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -392,7 +392,7 @@ play.innerHTML = `
 
 study.innerHTML = `          
 <div class="dv1">
-  <h3>${data[2].title}</h3>
+  <h2>${data[2].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -405,7 +405,7 @@ study.innerHTML = `
 
 exercise.innerHTML = `          
 <div class="dv1">
-  <h3>${data[3].title}</h3>
+  <h2>${data[3].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -418,7 +418,7 @@ exercise.innerHTML = `
 
 social.innerHTML = `          
 <div class="dv1">
-  <h3>${data[4].title}</h3>
+  <h2>${data[4].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 
@@ -431,7 +431,7 @@ social.innerHTML = `
 
 self_care.innerHTML = `          
 <div class="dv1">
-  <h3>${data[5].title}</h3>
+  <h2>${data[5].title}</h2>
   <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
     <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 
     2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 

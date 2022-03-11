@@ -21,7 +21,7 @@ a{
 }
 .creator{
     position: relative;
-    width: 20%;
+    width: max(20%, 250px);
     border-radius: 12px;
 }
 .avatar-section{
@@ -43,22 +43,23 @@ a{
 }
 .timeframe{
     position: absolute;
+    display: flex;
+    flex-direction: column;
     top: 0;
     left: 0;
     width: 100%;
-    margin-top: 110%;
+    margin-top: max(110%, 250px);
     background-color: hsl(235, 46%, 20%);
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
     padding-bottom: 5%;
     padding-top: 15%;
 }
-.timeframe ul a li{
-    list-style: none;
+.timeframe a {
     padding-left: 10%;
-    padding-bottom: 2%;
+    padding-bottom: 8%;
 }
-.timeframe ul a li:first-child{
+.timeframe a:first-child{
     padding-top: 10%;
 }
 .active{
@@ -84,7 +85,7 @@ a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 75%;
+    width: max(75%, 900px);
 }
 
 .subdash{
@@ -144,13 +145,17 @@ a{
     display: flex;
     justify-content: space-between;
 }
+.overlay .dv1 h2{
+    font-size: 18px;
+    font-weight: 300;
+}
 .overlay .dv1 svg{
     fill : #BBC0FF;
 }
 .overlay .dv1 svg:hover{
     fill: white !important;
 }
-.overlay h1{
+.overlay .dv2 h1{
     font-size: 50px;
     font-weight: 300;
     padding-top: 15%;
@@ -177,13 +182,13 @@ a{
     }
     .creator{
         position: relative;
-        width: 100%;
+        width: max(100%, 350px);
         border-radius: 12px;
     }
     .dashboard{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: max(100%, 350px);
         margin-top: -20%;
     }
     .subdash{
@@ -202,13 +207,14 @@ a{
         justify-content: space-between;
         align-items: flex-end;
     }
-    .overlay h1{
-        font-size: 25px;
-        padding-right: 15%;
+    .overlay .dv2 h1{
+        font-size: 30px;
+        padding-right: 1%;
     }
     .overlay p{
         font-size: 16px;
-        padding-right: 5%;
+        padding-right: 0%;
+        padding-left: 5%;
         padding-bottom: 2%;
     }
     .overlay{
@@ -231,18 +237,21 @@ a{
     }
     .timeframe{
         margin-top: 30%;
-    }
-    .timeframe ul{
         display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
+        flex-direction: row;
+        padding-left: 0;
+        padding-bottom: 5%;
+    }
+    .timeframe a{
         text-align: center;
         width: 80%;
         margin: auto;
-        padding-left: 0;
-        padding-bottom: 10%;
+
     }
-    .timeframe ul a li{
+    .timeframe a:first-child{
+        padding-top: 0;
+    }
+    .timeframe a {
         padding-left: 0;
     }
 }
