@@ -9,6 +9,7 @@ html{
 body{
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
+    line-height: 2em;
     width: 100%;
 }
 a{
@@ -20,6 +21,7 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 25px;
 }
 #navbar{
     height: 100px;
@@ -74,7 +76,9 @@ a{
 .header_content h1{
     color: white;
     text-transform: uppercase;
+    font-family: 'Fraunces', sans-serif;
     font-size: 70px;
+    line-height: 1em;
     font-weight: 900;
     letter-spacing: 5px;
 }
@@ -92,10 +96,12 @@ a{
     width: 50%;
 }
 .brand{
-    padding: 100px 140px 100px;
+    padding: 120px 140px 120px;
 }
 .brand h2{
-    font-weight: 800;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    line-height: 1em;
     font-size: 50px;
 }
 
@@ -173,12 +179,13 @@ button{
 }
 .testimonies{
     width: 100%;
-    padding: 10%;
+    padding: 15% 8%;
 }
 .testimonies h2{
     text-align: center;
     text-transform: uppercase;
-    font-weight: 800;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
     margin-bottom: 70px;
     letter-spacing: 2px;
     color: grey;
