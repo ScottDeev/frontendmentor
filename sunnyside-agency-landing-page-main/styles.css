@@ -74,7 +74,8 @@ a{
 .header_content h1{
     color: white;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 70px;
+    font-weight: 900;
     letter-spacing: 5px;
 }
 .arrow{
@@ -93,12 +94,12 @@ a{
 .brand{
     padding: 100px 140px 100px;
 }
-.brand h1{
-    font-weight: 600;
-    font-size: 40px;
+.brand h2{
+    font-weight: 800;
+    font-size: 50px;
 }
 
-.brand h1,
+.brand h2,
 .brand p{
     padding-bottom: 50px;
 }
@@ -110,11 +111,14 @@ button{
     cursor: pointer;
     border-radius: 5px;
 }
-.learn h2 {
+.learn{
     color: black;
     text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
     font-size: 18px;
-    width: 140px;
+    padding: 0 10px;
+    width: 142px;
     border-radius: 5px;
 }
 .bg-yg{
@@ -171,9 +175,10 @@ button{
     width: 100%;
     padding: 10%;
 }
-.testimonies h1{
+.testimonies h2{
     text-align: center;
     text-transform: uppercase;
+    font-weight: 800;
     margin-bottom: 70px;
     letter-spacing: 2px;
     color: grey;
@@ -203,7 +208,7 @@ button{
 .test-name{
     margin-top: 20px;
 }
-.test-name h4{
+.test-name h3{
     text-align: center;
 }
 .test-name p{
@@ -387,15 +392,11 @@ button{
         justify-content: center;
         align-items: center;
     }
-    .learn h2{
-        font-size: 16px;
-        width: 120px;
-    }
-    .brand h1{
-        font-size: 30px;
+    .brand h2{
+        font-size: 50px;
     }
     .brand p{
-        font-size: 14px;
+        font-size: 16px;
     }
     .col-12min{
         display: flex;
@@ -441,7 +442,7 @@ button{
     .testimonies-details p{
         padding: 5%;
     }
-    .testimonies h1{
+    .testimonies h2{
         margin-bottom: 20px;
     }
     .test-name p{
@@ -556,15 +557,12 @@ button{
         justify-content: center;
         align-items: center;
     }
-    .learn h2{
-        font-size: 16px;
-        width: 120px;
-    }
-    .brand h1{
-        font-size: 30px;
+
+    .brand h2{
+        font-size: 50px;
     }
     .brand p{
-        font-size: 14px;
+        font-size: 16px;
     }
     .col-12min{
         display: flex;
@@ -609,7 +607,7 @@ button{
     .testimonies-details p{
         padding: 5%;
     }
-    .testimonies h1{
+    .testimonies h2{
         margin-bottom: 20px;
     }
     .test-name p{
