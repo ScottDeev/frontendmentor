@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Epilogue", sans-serif;
+  background-color: rgb(248, 248, 248);
+}
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 50%);
+}
+a:hover {
+  color: black;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 45px 30px 60px;
+}
+.main__body {
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.navbar ul li {
+  padding: 0 25px;
+  list-style: none;
+}
+.nav-logo {
+  margin-right: 40px;
+}
+.nav__features2 {
+  display: flex;
+}
+.nav__features2 li {
+  position: relative;
+  display: flex;
+  /* align-items: center; */
+}
+.close-menu {
+  display: none;
+}
+.open-menu {
+  display: none;
+}
+.hide {
+  display: none;
+}
+.hide-drop {
+  position: absolute;
+  top: 20%;
+  transform: translateY(-200%);
+  opacity: 0;
+}
+.feature-drop {
+  position: absolute;
+  top: 100%;
+  right: 10%;
+  background-color: white;
+  padding: 10% 0;
+  border-radius: 8px;
+  box-shadow: -1px 1px 10px 2px rgb(0, 0, 0, 0.35);
+  width: 140%;
+  transition: all 0.5s;
+}
+.feature-drop div {
+  margin: 10% 5%;
+}
+.feature-drop div img {
+  margin: 0 10%;
+}
+.company-drop {
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  background-color: white;
+  padding: 10%;
+  border-radius: 8px;
+  box-shadow: -1px 1px 10px 2px rgb(0, 0, 0, 0.35);
+  width: 100%;
+  transition: all 0.5s;
+}
+.company-drop div {
+  margin: 10% 5%;
+}
+.nav__features3 {
+  display: flex;
+  margin-left: auto;
+}
+.reg {
+  border: 2px solid hsl(0, 0%, 60%);
+  padding: 10% 25%;
+  border-radius: 8px;
+}
+.reg:hover {
+  border: 2px solid black;
+}
+.main__section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5% 7%;
+  /* margin: 7%; */
+}
+.sub__section1 {
+  width: 55%;
+  padding: 125px 50px 0 50px;
+}
+.sub__section2 {
+  width: 45%;
+  background-image: url("./images/image-hero-desktop.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* padding-top: 50px; */
+}
+.sub__section1 h1 {
+  font-size: 73px;
+  margin-bottom: 50px;
+  padding-right: 20px;
+}
+.sub__section1 p {
+  margin-bottom: 50px;
+  padding-right: 120px;
+}
+.sub__section1 button {
+  padding: 10px 20px;
+  /* border: none; */
+  border-radius: 10px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 190px;
+}
+.sub__section1 button:hover {
+  background: white;
+  color: black;
+}
+.sponspor__logo img {
+  height: 15px;
+  padding-right: 25px;
+}
+
+@media screen and (max-width: 888px) {
+  body {
+    position: relative;
+    /* width: 100vw; */
+    /* overflow: hidden; */
+  }
+  .navbar.show-menu {
+    transform: translateX(0);
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 60%;
+    background-color: white;
+    z-index: 100;
+    /* overflow: hidden; */
+  }
+  .nav__features2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav__features3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .nav__features2 li {
+    margin: 5% 0;
+  }
+  .nav__features3 li {
+    margin: 5% 0;
+  }
+
+  .reg {
+    border: 2px solid hsl(0, 0%, 60%);
+    padding: 5% 25%;
+    border-radius: 8px;
+  }
+  .feature-drop {
+    position: unset;
+    background-color: transparent;
+    padding: 5% 1%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .company-drop {
+    position: unset;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .feature {
+    display: flex;
+    flex-direction: column;
+  }
+  .company {
+    display: flex;
+    flex-direction: column;
+  }
+  .feature-drop div {
+    margin: 10% 0;
+  }
+  .feature-drop div img {
+    margin: 0 5% 0 10%;
+  }
+  .hide-drop {
+    position: absolute;
+    top: 20%;
+    display: none;
+  }
+  .close-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 5%;
+  }
+  .open-menu {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    /* padding: 5%; */
+  }
+  .main__section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 5% 0;
+    /* margin: 7%; */
+  }
+  .sub__section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .sub__section2 {
+    width: 100%;
+    background-image: url("./images/image-hero-mobile.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 80%;
+  }
+  .sub__section1 h1 {
+    font-size: 50px;
+    margin: 50px 0 30px 0;
+    padding-right: 20px;
+  }
+  .sub__section1 p {
+    margin-bottom: 30px;
+    padding: 0 15px;
+  }
+  .sub__section1 button {
+    width: 40%;
+    padding: 10px 20px;
+    /* border: none; */
+    border-radius: 10px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 160px;
+  }
+  .sub__section1 button:hover {
+    background: white;
+    color: black;
+  }
+  .sponspor__logo img {
+    height: 15px;
+    padding-right: 10px;
+  }
+  .overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    z-index: 100;
+  }
+}
